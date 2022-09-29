@@ -1,0 +1,29 @@
+name: micro_core
+description: A new Flutter package project.
+version: 0.0.1
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  micro_app_dependencies:
+    git: https://github.com/WelintonPrediger/micro_app_dependencies.git
+
+  login_app:
+    git: https://github.com/WelintonPrediger/micro_app_login.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.2.1
+
+flutter:
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
