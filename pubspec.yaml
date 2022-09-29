@@ -8,9 +8,6 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
-
   micro_app_dependencies:
     git: https://github.com/WelintonPrediger/micro_app_dependencies.git
 
