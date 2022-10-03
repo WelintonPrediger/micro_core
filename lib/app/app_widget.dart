@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:micro_app_dependencies/main.dart';
 
 class AppWidget extends StatelessWidget {
