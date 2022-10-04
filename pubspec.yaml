@@ -17,6 +17,9 @@ dependencies:
   login_app:
     git: https://github.com/WelintonPrediger/micro_app_login.git
 
+  module_home:
+    git: https://github.com/WelintonPrediger/micro_app_home.git
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
