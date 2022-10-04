@@ -15,14 +15,10 @@ dependencies:
     git: https://github.com/WelintonPrediger/micro_app_dependencies.git
 
   login_app:
-    git:
-      url: https://github.com/WelintonPrediger/micro_app_login.git
-      ref: 'main'
+    git: https://github.com/WelintonPrediger/micro_app_login.git
 
   module_home:
-    git:
-      url: https://github.com/WelintonPrediger/micro_app_home.git
-      ref: 'main'
+    git: https://github.com/WelintonPrediger/micro_app_home.git
 
 dev_dependencies:
   flutter_test:
