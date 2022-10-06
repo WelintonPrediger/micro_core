@@ -4,12 +4,11 @@ import 'package:module_home/app/modules/home/_export.dart';
 
 class AppModule extends Module {
   @override
-  final List<Bind> binds = [];
+  List<Bind> get binds => [];
 
   @override
-  final List<ModularRoute> routes = [
+  List<ModularRoute> get routes => [
     ModuleRoute('/', module: LoginModule()),
-    ModuleRoute('/home', module: HomeModule())
+    ModuleRoute('/home', module: HomeModule()),
   ];
-
 }
