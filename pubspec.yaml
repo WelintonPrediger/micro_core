@@ -20,6 +20,7 @@ dependencies:
   module_home:
     git: https://github.com/WelintonPrediger/micro_app_home.git
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
