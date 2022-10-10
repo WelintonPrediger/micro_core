@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login_app/app/module/login/_export.dart';
 import 'package:micro_app_dependencies/main.dart';
-import 'package:micro_core/main.dart';
 
 class AppWidget extends StatefulWidget {
   const AppWidget({Key? key}) : super(key: key);
@@ -11,13 +9,6 @@ class AppWidget extends StatefulWidget {
 }
 
 class _AppWidgetState extends State<AppWidget> {
-
-  @override
-  void initState() {
-    _init();
-    super.initState();
-  }
-  
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
@@ -26,9 +17,5 @@ class _AppWidgetState extends State<AppWidget> {
       title: 'Micro Core',
       theme: ThemeData(primarySwatch: Colors.blue),
     );
-  }
-
-  void _init() {
-    AppModule().routes.add(ModuleRoute('/settings', module: LoginModule()));
   }
 }

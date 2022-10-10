@@ -14,10 +14,10 @@ dependencies:
   micro_app_dependencies:
     git: https://github.com/WelintonPrediger/micro_app_dependencies.git
 
-  login_app:
+  micro_app_login:
     git: https://github.com/WelintonPrediger/micro_app_login.git
 
-  module_home:
+  micro_app_home:
     git: https://github.com/WelintonPrediger/micro_app_home.git
 
 
